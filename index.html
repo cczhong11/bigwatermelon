@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>合成大FB</title>
+    <title>合成大西瓜</title>
 
     <!--http://www.html5rocks.com/en/mobile/mobifying/-->
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
@@ -95,7 +95,15 @@
         <img src="res/loading.gif" width="7%" height="7%" />
     </div>
 
-   
+    <!-- 判断浏览器是否屏蔽广告 -->
+    <script src="http://demo.jb51.net/js/2015/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var killAdT = typeof(killads);
+        <!-- if (typeof(killads)=='undefined'){ -->
+        <!-- alert('广告被过滤'); -->
+        <!-- } -->
+    </script>
+
 
 
 
@@ -224,6 +232,19 @@
     <script src="src/settings.js" charset="utf-8"></script>
 
     <script src="main.js" charset="utf-8"></script>
+
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+   
+
+    </script>
+
+    <script>
+        window.adsbygoogle = window.adsbygoogle || [];
+        const adBreak = function(o) {
+            adsbygoogle.push(o);
+        }
+    </script>
 
 
     <script type="text/javascript">
