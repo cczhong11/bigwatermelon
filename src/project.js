@@ -987,7 +987,7 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
-                    window.location.href = "https://study.tczhong.com"
+                    window.location.href = "https://www.buymeacoffee.com/cczhong"
                 }, t.prototype.bannerButtonFunc = function() {
                     window.location.href = "https://interaction.clotfun.online/horse?appkey=8fa2be346ab599d74b7b35732652ab4d&adSpaceKey=1baa3dd0d2eeb6e18a5f7a6d6e410e1a&from=H5&1=1"
                 }, t.prototype.ShowFailedUi = function(e, t) {
@@ -1901,7 +1901,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
                 }, t.prototype.adsButtonFunc = function() {
-                    window.location.href = "https://study.tczhong.com"
+                    window.location.href = "https://www.buymeacoffee.com/cczhong"
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
                     this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function() {
